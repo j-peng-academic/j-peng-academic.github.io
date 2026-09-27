@@ -1,0 +1,64 @@
+.hero-role span {
+  color: var(--muted);
+  font-size: .78em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.rotman-experience p {
+  max-width: 790px;
+}
+
+.rotman-experience ul {
+  display: grid;
+  gap: 0;
+  margin: 24px 0 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+  list-style: none;
+}
+
+.rotman-experience li {
+  display: grid;
+  grid-template-columns: minmax(190px, 1fr) minmax(210px, auto);
+  gap: 24px;
+  align-items: baseline;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.rotman-experience li > div {
+  display: grid;
+  gap: 5px;
+}
+
+.rotman-experience li strong {
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 15px;
+}
+
+.rotman-experience li small {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
+.rotman-experience li span {
+  color: var(--muted);
+  font-size: 14px;
+  text-align: right;
+}
+
+@media (max-width: 700px) {
+  .rotman-experience li {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .rotman-experience li span {
+    text-align: left;
+  }
+}
