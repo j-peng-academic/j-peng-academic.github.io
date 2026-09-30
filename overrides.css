@@ -84,3 +84,52 @@
 .other-publications .publication-year {
   font-size: 13px;
 }
+
+/* Compact the five selected papers while preserving their visual priority. */
+.research .featured-papers {
+  margin-top: 48px;
+}
+
+.research .featured-paper {
+  grid-template-columns: 42px 1fr;
+  gap: 14px;
+  padding: 24px 0;
+}
+
+.research .paper-index {
+  font-size: 12px;
+}
+
+.research .paper-status {
+  margin-bottom: 6px;
+  font-size: 11px;
+}
+
+.research .featured-paper h3 {
+  font-size: clamp(20px, 2vw, 28px);
+  line-height: 1.16;
+}
+
+.research .paper-authors {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.research .paper-detail {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.research .paper-previous-title {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+@media (min-width: 981px) {
+  .research.section {
+    padding-top: 82px;
+  }
+}
