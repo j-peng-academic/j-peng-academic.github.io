@@ -248,12 +248,12 @@ footer{grid-template-columns:1fr auto}
 .research .section-heading>.kicker,.research .publication-heading h3{font-size:18px;line-height:1.35}
 
 /* A unified author-first citation line for each selected paper. */
-.research .paper-title-row,.research .paper-title-row h3,.research .paper-title-row .paper-authors,.research .paper-title-row .paper-status{font-family:inherit;font-size:18px;line-height:1.6;letter-spacing:normal}
+.research .paper-title-row,.research .paper-title-row h3,.research .paper-title-row .paper-authors,.research .paper-title-row .paper-status{font-family:inherit;font-size:16px;line-height:1.6;letter-spacing:normal}
 .research .paper-title-row h3,.research .paper-title-row .paper-authors,.research .paper-title-row .paper-status{display:inline;margin:0}
 .research .paper-title-row h3{font-weight:400;color:var(--ink)}
 .research .paper-title-row .paper-status{text-transform:none}
 .research .paper-title-row .paper-separator{font:inherit;color:var(--ink-soft)}
-@media(max-width:700px){.research .paper-title-row,.research .paper-title-row h3,.research .paper-title-row .paper-authors,.research .paper-title-row .paper-status{font-size:16px}}
+@media(max-width:700px){.research .paper-title-row,.research .paper-title-row h3,.research .paper-title-row .paper-authors,.research .paper-title-row .paper-status{font-size:15px}}
 
 /* A slightly smaller homepage research overview title. */
 .home-overview .research-overview h2{font-size:28px}
