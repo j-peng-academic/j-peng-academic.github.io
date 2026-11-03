@@ -254,3 +254,7 @@ footer{grid-template-columns:1fr auto}
 .research .paper-title-row .paper-status{text-transform:none}
 .research .paper-title-row .paper-separator{font:inherit;color:var(--ink-soft)}
 @media(max-width:700px){.research .paper-title-row,.research .paper-title-row h3,.research .paper-title-row .paper-authors,.research .paper-title-row .paper-status{font-size:16px}}
+
+/* A slightly smaller homepage research overview title. */
+.home-overview .research-overview h2{font-size:28px}
+@media(max-width:700px){.home-overview .research-overview h2{font-size:24px}}
