@@ -258,3 +258,7 @@ footer{grid-template-columns:1fr auto}
 /* A slightly smaller homepage research overview title. */
 .home-overview .research-overview h2{font-size:28px}
 @media(max-width:700px){.home-overview .research-overview h2{font-size:24px}}
+
+/* Compact green research-field labels beneath paper titles. */
+.research .paper-topic{display:block;margin:5px 0 3px;color:#8fcda4;font-size:12.5px;font-weight:500;line-height:1.5;letter-spacing:.01em}
+@media(max-width:700px){.research .paper-topic{font-size:12px}}
